@@ -15,6 +15,7 @@ int main()
         printf("Nombre ingresado: ");
         puts(arreglo[i]);
         printf("\n");
+        free(arreglo[i]);
     }
     
 }
